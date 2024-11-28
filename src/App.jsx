@@ -20,11 +20,31 @@ function App() {
 
 function Body() {
   return (
-    <div>
+    <>
+     <div>
       <h1>DiG WEB</h1>
       <p>Welcome to the future of web development.</p>
       <p>We are a team of experts in the field of web development.</p>
     </div>
+
+    <div> 
+      <h2> what we specialise in </h2>
+      <ul>
+        <li>React</li>
+        <li>Node.js</li>
+        <li>JavaScript</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>MongoDB</li>
+        <li>Express.js</li>
+        <li>Java</li>
+        <li>Python</li>
+        <li>Postgresql</li>
+        <li> MySQL</li>
+      </ul>
+    </div>
+    </>
+   
   );
 }
 
