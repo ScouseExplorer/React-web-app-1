@@ -3,7 +3,7 @@ import './App.css';
 
 function App() {
   return (
-    // Wrap both elements inside a single parent div or React.Fragment
+    
     <div>
       <div className="header">
         <a href="#default" className="logo">DiG WEB</a>
