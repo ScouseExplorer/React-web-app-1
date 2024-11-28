@@ -25,6 +25,7 @@ function Body() {
       <h1>DiG WEB</h1>
       <p>Welcome to the future of web development.</p>
       <p>We are a team of experts in the field of web development.</p>
+      <button> Button </button>
     </div>
 
     <div> 
