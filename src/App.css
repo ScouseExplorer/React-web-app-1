@@ -51,9 +51,13 @@
     }
   }
 
+div.intro{
+  padding: 20px;
+  text-align: center;
+}
 button{
   border: none;
-  background: red;
+  background: green;
   padding: 0.5em 2.5em;
   border-radius: 100px;
   color: white;
@@ -62,10 +66,42 @@ button{
   font-weight: 500;
   cursor: pointer;
   transition: 150ms ease;
-  position: right center;
+  position: center;
 }
 
 button:hover{
-  background: blue;
-  scale: 2;
+  background: orangered;
+  scale: 1.5;
+}
+
+ul.specialise {
+  list-style-type: none; 
+  padding: 0;
+  margin: 0;
+  margin-left: 20px;
+}
+
+
+ul.specialise li {
+  margin-bottom: 10px; /* Adds space between list items */
+}
+
+
+ul.specialise button {
+  border: none;
+  background: rgb(128, 0, 122);
+  color: white;
+  padding: 0.5em 2.5em;
+  border-radius: 10px;
+  font-family: Poppins;
+  font-size: 1.2rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 150ms ease;
+  width: 10%; 
+}
+
+ul.specialise button:hover {
+  background: orangered;
+  transform: scale(1.2);
 }
