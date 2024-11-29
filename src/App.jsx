@@ -21,31 +21,30 @@ function App() {
 function Body() {
   return (
     <>
-     <div>
-      <h1>DiG WEB</h1>
-      <p>Welcome to the future of web development.</p>
-      <p>We are a team of experts in the field of web development.</p>
-      <button> Button </button>
-    </div>
+      <div className= "intro">
+        <h1 >DiG WEB</h1>
+        <p>Welcome to the future of web development.</p>
+        <p>We are a team of experts in the field of web development.</p>
+        <button>Button</button>
+      </div>
 
-    <div> 
-      <h2> what we specialise in </h2>
-      <ul>
-        <li>React</li>
-        <li>Node.js</li>
-        <li>JavaScript</li>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>MongoDB</li>
-        <li>Express.js</li>
-        <li>Java</li>
-        <li>Python</li>
-        <li>Postgresql</li>
-        <li> MySQL</li>
-      </ul>
-    </div>
+      <div>
+        <h2>What we specialise in</h2>
+        <ul className="specialise">
+          <li><button>React</button></li>
+          <li><button>Node.js</button></li>
+          <li><button>JavaScript</button></li>
+          <li><button>HTML</button></li>
+          <li><button>CSS</button></li>
+          <li><button>MongoDB</button></li>
+          <li><button>Express.js</button></li>
+          <li><button>Java</button></li>
+          <li><button>Python</button></li>
+          <li><button>PostgreSQL</button></li>
+          <li><button>MySQL</button></li>
+        </ul>
+      </div>
     </>
-   
   );
 }
 
