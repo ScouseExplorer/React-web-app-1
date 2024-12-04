@@ -41,8 +41,13 @@ function Body() {
           <li><button>Java</button></li>
           <li><button>Python</button></li>
           <li><button>PostgreSQL</button></li>
-          <li><button>MySQL</button></li>
+          <li><button>MySQL </button></li>
         </ul>
+      </div>
+
+      <div>
+        <h2> why choose us </h2>
+        <p> we find solutions where others seem to struggle.</p>
       </div>
     </>
   );
