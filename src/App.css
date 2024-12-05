@@ -105,3 +105,11 @@ ul.specialise button:hover {
   background: orangered;
   transform: scale(1.2);
 }
+
+div.expertise {
+  font-family: italics;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 20px;
+  text-align: center;
+}
