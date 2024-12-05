@@ -44,10 +44,12 @@ function Body() {
           <li><button>MySQL </button></li>
         </ul>
       </div>
+    
 
-      <div>
+      <div className="expertise">
         <h2> why choose us </h2>
         <p> we find solutions where others seem to struggle.</p>
+        <p>Our expertise, experience and commitment to quality make us a strong contender.</p>
       </div>
     </>
   );
