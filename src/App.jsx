@@ -21,8 +21,8 @@ function App() {
 function Body() {
   return (
     <>
-      <div className= "intro">
-        <h1 >DiG WEB</h1>
+      <div className="intro">
+        <h1>DiG WEB</h1>
         <p>Welcome to the future of web development.</p>
         <p>We are a team of experts in the field of web development.</p>
         <button>Button</button>
@@ -44,7 +44,6 @@ function Body() {
           <li><button>MySQL </button></li>
         </ul>
       </div>
-    
 
       <div className="expertise">
         <h2> why choose us </h2>
@@ -54,5 +53,16 @@ function Body() {
     </>
   );
 }
+
+function randomNumber(min, max) {
+  return Math.floor(Math.random() * (max - min + 1)) + min
+}
+
+const STAR_COUNT = 100
+let result = ""
+for(let i = 0; i < STAR_COUNT; i++){
+  result += `${randomNumber(-50, 50)}vw ${randomNumber(-50, 50)}vh ${randomNumber(0, 3)}px ${randomNumber(0, 3)}px #fff,`
+}
+console.log(result.substring(0, result.length - 1))
 
 export default App;
