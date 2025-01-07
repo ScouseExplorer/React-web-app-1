@@ -79,6 +79,7 @@ ul.specialise {
   padding: 0;
   margin: 0;
   margin-left: 20px;
+  font-family: Arial;
 }
 
 
@@ -113,4 +114,5 @@ div.expertise {
   margin-bottom: 20px;
   text-align: center;
 }
+
 
