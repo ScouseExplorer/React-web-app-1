@@ -28,10 +28,18 @@ function Body() {
         <button>Button</button>
       </div>
 
+      <div className = "Career Change">
+        <h2>Career Change</h2>
+        <p>We are constantly looking for talented individuals who want to make a difference in the tech industry.</p>
+        <p>Join us and help shape the future of web development and software development.</p>
+        <button>Button</button>
+
+      </div>
+
       <div>
         <h2>What we specialise in</h2>
         <ul className="specialise">
-          <li><button>React</button></li>
+          <li className="specialise" ><button>React</button></li>
           <li><button>Node.js</button></li>
           <li><button>JavaScript</button></li>
           <li><button>HTML</button></li>
@@ -49,9 +57,18 @@ function Body() {
       </div>
 
       <div className="expertise">
-        <h2 styleType= "italics"> WHY CHOOSE US </h2>
+        <h2 styleType= "Arial"> WHY CHOOSE US </h2>
         <p> we find solutions where others seem to struggle.</p>
         <p>Our expertise, experience and commitment to quality make us a strong contender.</p>
+      </div>
+
+
+      <div className = "Machine Learning Course"> 
+        <h2>Machine Learning Course</h2>
+        <p>We offer a comprehensive machine learning course covering various topics such as 
+        data preprocessing, model selection, and implementation in Python.</p>
+        <button>Button</button>
+
       </div>
     </>
   );
