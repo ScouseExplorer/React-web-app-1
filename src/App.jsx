@@ -72,6 +72,13 @@ function Body() {
         </p>
         <button>Enroll Now</button>
       </div>
+
+     
+      
+
+      <div className="footer">
+        <p> 2025 DiG WEB. All rights reserved.</p>
+      </div>
     </>
   );
 }
