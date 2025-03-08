@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Signup from './signup.jsx';
+import About from './about.jsx';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Body />} />
           <Route path="/signup" element={<Signup />} />
+          <Route path="/about" element={<About />} />
         </Routes>
       </div>
     </Router>
@@ -59,13 +61,13 @@ function Body() {
         </ul>
       </div>
 
-      <div className="expertise">
+      <div className="Expertise">
         <h2>WHY CHOOSE US</h2>
         <p>We find solutions where others seem to struggle.</p>
         <p>Our expertise, experience, and commitment to quality make us a strong contender.</p>
       </div>
 
-      <div className="machine-learning-course">
+      <div className="Machine-Learning-Course">
         <h2>Machine Learning Course</h2>
         <p>We offer a comprehensive machine learning course covering various topics such as 
           data preprocessing, model selection, and implementation in Python.
